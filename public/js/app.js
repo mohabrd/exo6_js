@@ -20,9 +20,18 @@
 
 // BOUCLE #2.3
 
+// for (let index = 1; index <=10; index++) {
+//     console.log(index);
+//     if (index >6) {
+//         break;
+//     }
+// }
+
+// BOUCLE #2.4
+
 for (let index = 1; index <=10; index++) {
-    console.log(index);
-    if (index >6) {
-        break;
+    if (index % 2) {
+        continue;
     }
+    console.log(index);
 }
