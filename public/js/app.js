@@ -29,9 +29,19 @@
 
 // BOUCLE #2.4
 
-for (let index = 1; index <=10; index++) {
-    if (index % 2) {
-        continue;
-    }
+// for (let index = 1; index <=10; index++) {
+//     if (index % 2) {
+//         continue;
+//     }
+//     console.log(index);
+// }
+
+// BOUCLE #2.5
+
+for (let index = 1; index <= 10; index++) {
     console.log(index);
+    if (index > 4) {
+        console.log('La boucle a été intérrompue')
+        break;        
+    }
 }
