@@ -7,13 +7,22 @@
 
 // BOUCLE #2.2
 
-let nbr;
-do {
-    nbr= +prompt("Saisie un nombre pair!");
+// let nbr;
+// do {
+//     nbr= +prompt("Saisie un nombre pair!");
 
-    if (nbr % 2 != 0) {
-        alert("Ce nombre n'est pas pair. REESSAYE");
-      }
+//     if (nbr % 2 != 0) {
+//         alert("Ce nombre n'est pas pair. REESSAYE");
+//       }
 
-} while (nbr % 2);
-nbr= alert("BIEN JOUER")
+// } while (nbr % 2);
+// nbr= alert("BIEN JOUER")
+
+// BOUCLE #2.3
+
+for (let index = 1; index <=10; index++) {
+    console.log(index);
+    if (index >6) {
+        break;
+    }
+}
