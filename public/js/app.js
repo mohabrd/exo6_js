@@ -39,20 +39,30 @@
 // BOUCLE #2.5
 
 // for (let index = 1; index <= 10; index++) {
-//     console.log(index);
-//     if (index > 4) {
-//         console.log('La boucle a été intérrompue')
-//         break;        
-//     }
+    // console.log(index);
+    // if (index > 4) {
+    //     console.log('La boucle a été intérrompue')
+    //     break;        
+    // }
 // }
 
 // BOUCLE #2.6
 
-for (let index = 1; index <= 10; index++) {
-    if (index % 3===0) {
-        console.log("l'itération a été sautée");
-        continue;
-    }
-    console.log(index);
+// for (let index = 1; index <= 10; index++) {
+//     if (index % 3===0) {
+//         console.log("l'itération a été sautée");
+//         continue;
+//     }
+//     console.log(index);
     
+// }
+
+// BOUCLE #2.7
+
+for (let index = 1; index <= 10; index++) {
+    console.log(index);
+    if (index > 4) {
+        console.log('La boucle a été intérrompue')
+        break;        
+    }
 }
